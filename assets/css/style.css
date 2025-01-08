@@ -27,6 +27,10 @@ button
     cursor: pointer;
     transition: 0.5s ease;
 }
+.navbar-collapse
+{
+    flex-grow: 0;
+}
 
 button:hover
 {
@@ -71,6 +75,7 @@ h6
     padding-bottom: 2rem !important;
     top: 0;
     left: 0;
+    box-shadow: 0 5px 10px rgb(0, 0, 0,0.1);
 }
 .navbar-light .navbar-nav .nav-link
 {
@@ -126,6 +131,360 @@ h6
 
 
 
+
+
+
+#new .one img
+{
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#new .one
+{
+    position: relative;
+}
+
+#new .one .details
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: aliceblue;
+    transition: 0.4s ease;
+    opacity: 0.8;
+    background-color: rgb(79, 75, 75);
+    width: 100%;
+    height: 60%;
+}
+#new .one .details:hover
+{
+    background-color: rgb(74, 65, 53);
+}
+
+#new .one:nth-child(1) .details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+#new .one:nth-child(2) .details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+#new .one:nth-child(3) .details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: start;
+}
+
+/* Events */
+.products
+{
+    cursor: pointer;
+    /* margin-bottom: 2rem; */
+}
+.products img{
+    transition: 0.3s all;
+
+}
+.products:hover img{
+    opacity: 0.7;
+}
+.products .buy-btn
+{
+    background-color: rgb(232, 129, 225);
+    color: white;
+}
+.buy-btn a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* banner */
+#banner
+{
+    background-image: url('../images/Rectangle\ 9.png');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /* background-position-x:center;
+    background-position-y: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    /* background-color: rgb(252, 216, 241); */
+}
+#banner h1:hover
+{
+    color: blue;
+}
+
+/* footer */
+footer
+{
+    background-color: beige;
+    color: rgb(32, 30, 27);
+}
+
+.logo
+{
+    width: 200px;
+    height: 50px;
+}
+.single-product input
+{
+    width: 50px;
+    height: 45px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.single-product input:focus{
+    outline: none;
+}
+
+/* Cart */
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart .product-info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart th{
+    text-align: left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: rgb(176, 155, 129);
+
+}
+
+.cart td{
+    padding: 10px 20px;
+}
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.cart td input
+{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+.cart td a{
+    color: coral;
+}
+.cart .remove-btn
+{
+    color: coral;
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    /* background-color: white; */
+}
+.cart .edit-btn
+{
+    color: coral;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    
+}
+.cart .product-info p{
+    margin: 3px;
+}
+
+
+.cart-total
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-total table
+{
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid coral;
+}
+td:last-child
+{
+    text-align: right;
+}
+td:last-child
+{
+    text-align: right;
+}
+.checkout-btn
+{
+    display: flex;
+    justify-self: flex-end;
+    background-color: coral;
+    color: #fff;
+}
+.checkout-btn:hover
+{
+    background-color: rgb(217, 162, 171);
+    color: #fff;
+}
+
+/* login */
+#login-form
+{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid coral;
+
+}
+#login-form input
+{
+    width: 50%;
+    margin: 5px auto;
+}
+#login-form #login-btn
+{
+    background-color: coral;
+    color: #fff;
+}
+#login-form #register-url
+{
+    color: coral;
+}
+
+/* register */
+#register-form
+{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid coral;
+}
+#register-form input
+{
+    width: 50%;
+    margin: 5px auto;
+}
+#register-form #register-btn
+{
+    background-color: coral;
+    color: #fff;
+}
+#register-form #login-url
+{
+    color: coral;
+}
+/* account */
+#account-form
+{
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 25px;
+}
+#account-form input
+{
+    margin: 5px auto;
+}
+#account-form #change-pass
+{
+    color: #fff;
+    background-color: coral;
+}
+.account-info #order-btn,#logout-btn
+{
+    color: coral;
+    
+    text-decoration: none;
+}
+/* orders */
+.orders table
+{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.orders .product-info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.orders th{
+    /* text-align: left; */
+    padding: 5px 10px;
+    color: #fff;
+    background-color: coral;
+}
+.orders th:nth-child(3)
+{
+    text-align: right;
+}
+.orders td
+{
+    padding: 10px 20px;
+}
+.orders td img
+{
+   width: 80px;
+   height: 80px;
+   margin-right: 10px;
+}
+/* checkout */
+
+#checkout-form .checkout-small-element
+{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+#checkout-form .checkout-large-element
+{
+    width: 96%;
+}
+#checkout-form .checkout-btn-container
+{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+}
+#checkout-form #checkout-btn{
+    color: #fff;
+    background-color: coral;
+}
+/* Contact */
+#contact span
+{
+    color: coral;
+}
+.txt-blue
+{
+    color: blue;
+    font-weight: bolder;
+}
 
 @media only screen and (max-width:990px){
     .nav-buttons
