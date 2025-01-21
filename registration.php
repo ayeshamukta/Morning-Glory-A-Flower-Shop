@@ -183,7 +183,7 @@ if(isset($_POST['register']))
                 </div>
                 <div class="form-group">
                    
-                    <a href="login.html" id="login-url" class="btn">Do you have account? Login Now.</a>
+                    <a href="login.php" id="login-url" class="btn">Do you have account? Login Now.</a>
                 </div>
             </form>
         </div>

@@ -131,7 +131,7 @@
   <div class="container text-center mt-5 py-5">
     <h3>Our Featured Events</h3>
     <hr>
-    <p>Here you can check out our oragnized events.</p>
+    <p>Here you can check out our organized flowers & events.</p>
   </div>
 
   <div class="row mx-auto container-fluid">
